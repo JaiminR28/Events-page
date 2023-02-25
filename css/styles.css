@@ -1,4 +1,4 @@
-*,
+#cards,
 *::before,
 *::after {
 	margin: 0;
@@ -31,6 +31,7 @@ html {
 	color: #ffffff;
 	font-size: 7rem;
 	line-height: 1;
+	padding-left: 2rem;
 }
 
 .row {
@@ -47,6 +48,7 @@ html {
 	font-family: "Signika Negative", sans-serif;
 	color: #d9d9d9;
 	font-size: 1.25rem;
+	padding-left: 2rem;
 }
 
 .section-heading {
@@ -202,6 +204,35 @@ text-center {
 #nav {
 	color: #d9d9d9;
 }
+
+.navbar-toggler-icon {
+	display: inline-block;
+	/* width: 1.5em; */
+	height: 1.5em;
+	vertical-align: middle;
+	content: "";
+	background: no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.show {
+	max-height: 280px;
+	overflow-y: auto;
+	overflow: visible;
+}
+
+ul.navbar-nav.ml-auto.ul-bg {
+	text-align: center;
+	/* backdrop-filter: blur(10px); */
+}
+
+/* *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+} */
 /* Buttons */
 
 .download-button {
@@ -378,6 +409,7 @@ text-center {
 	background-color: #070713;
 	/* flex-wrap: wrap; */
 	text-align: left;
+	/* padding: 0 10rem; */
 }
 
 .img-card {
@@ -393,7 +425,7 @@ text-center {
 }
 
 .img-card.active {
-	width: 30vw;
+	width: 24rem;
 }
 /* 
 .img-card:not(.active):hover {
@@ -461,7 +493,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 	object-fit: cover;
 }
 
-.img-card label {
+.img-card div {
 	font-family: var(--font-title);
 	padding: 1.5rem;
 	/* border: 1px solid #fff3; */
@@ -485,7 +517,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 	text-orientation: mixed;
 }
 
-.img-card.active label {
+.img-card.active div {
 	backdrop-filter: blur(8px) brightness(85%);
 	-webkit-backdrop-filter: blur(8px) brightness(85%);
 
@@ -502,7 +534,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 	animation: opacity 1s ease-in;
 }
 
-.img-card label span {
+.img-card div span {
 	font-family: var(--font-text);
 	font-weight: 400;
 	display: block;
@@ -512,7 +544,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 	padding-top: 0.5;
 	font-weight: 200;
 }
-.img-card.active label span {
+.img-card.active div span {
 	/* transition-delay: 0.2s; */
 	/* animation: opacity 3s infinite; */
 	font-size: 1rem;
@@ -587,7 +619,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 /* primarycolor: #40fcc2, #f9c362 * /  */
 
 .Events {
-	width: 100vw;
+	/* width: 100vw; */
 	height: auto;
 	/* margin-left: 34px; */
 	background-color: #070713;
