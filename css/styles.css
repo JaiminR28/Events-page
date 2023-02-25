@@ -202,7 +202,6 @@ text-center {
 #nav {
 	color: #d9d9d9;
 }
-
 /* Buttons */
 
 .download-button {
@@ -222,14 +221,14 @@ text-center {
 /* footer */
 
 .final {
-	padding-top: 5%;
+	padding-top: 2.5%;
 	background: linear-gradient(90deg, #fa4576 23.13%, #feb958 123.02%);
 	padding-bottom: 3%;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	width: 100vw;
+	justify-content: space-around;
+	/* width: 100vw; */
 }
 
 .footer-text {
@@ -237,40 +236,80 @@ text-center {
 	flex-direction: column;
 	text-align: left;
 	padding-left: 2ex;
-	width: 575px;
+	/* width: 575px; */
 }
 
 .footer-text img {
 	width: 73px;
 	height: 76px;
-	margin-bottom: 5ex;
+	margin-bottom: 2ex;
 }
 
 .footer-text p {
 	text-align: left;
 	/* padding-top: 5rem; */
-	font-size: 60px;
+	font-size: 2.5rem;
 	font-family: "Asap";
 	font-style: normal;
 	color: #d9d9d9;
-	line-height: 3.5rem;
-	/* padding-left: 3rem; */
+	line-height: 2.5rem;
+	padding-left: 0rem;
+}
+
+.footer-text h4 {
+	font-size: 1rem;
+	color: white;
+}
+
+.footer-text h3 {
+	font-size: 1rem;
+	color: white;
+}
+
+.past-websites {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 0;
+	/* width: 25rem; */
+	padding-top: 3.2rem;
+	padding-left: 1.5rem;
+}
+
+.past-websites p {
+	text-align: left;
+	padding-top: 2.5rem;
+	font-size: 2.5rem;
+	font-family: "Asap";
+	font-style: normal;
+	color: #d9d9d9;
+	line-height: 2.5rem;
+	/* padding-left: rem; */
+}
+
+.past-websites h3 {
+	font-size: 1rem;
+	color: white;
+}
+
+.past-websites a {
+	color: white;
 }
 
 .icons {
-	margin-right: 6.5rem;
+	margin-right: 0rem;
 }
 
 .fab {
 	margin-top: 2rem;
 	padding: 1rem;
-	font-size: 2.5rem;
+	font-size: 1.75rem;
 	color: rgb(57, 57, 57);
 	width: fit-content;
 	text-align: center;
 	text-decoration: none;
 	background-color: #d9d9d9;
-	border-radius: 1.5rem;
+	border-radius: 1.25rem;
 	margin-right: 1rem;
 }
 
@@ -311,13 +350,16 @@ text-center {
 }
 
 .map {
-	margin: 0 2rem;
+	margin: 0 1rem;
+	padding-right: 2rem;
+	padding-top: 5rem;
+	/* width: 25rem; */
 }
 
 .map iframe {
 	border: 0;
-	width: 35vw;
-	height: 20vw;
+	width: 25rem;
+	height: 23rem;
 	border-radius: 1.5rem;
 	margin-right: 0;
 }
