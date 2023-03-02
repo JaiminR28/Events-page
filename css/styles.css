@@ -153,7 +153,7 @@ text-center {
 .Home {
 	padding: 0rem 7%;
 	min-height: 50rem;
-	background: url(../img/background.png) no-repeat;
+	background: url(../Images/background.png) no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;

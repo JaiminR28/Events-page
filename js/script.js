@@ -304,7 +304,7 @@ function DisplayCards(EventObj) {
 		// EventEl.children[0].src = el[0];
 		// EventEl.children[1].children[0].innerHTML = el[1];
 		// EventEl.children[1].children[1].innerHTML = el[2];
-
+		console.log("Incards");
 		const html = `<article class="card">
   <img
     class="card__background"
